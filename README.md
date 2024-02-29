@@ -3,7 +3,7 @@
 
 # Mental Health Game Application
 
-This is a mental health game application built with MERN stack and using Machine learning models - BART and Stable Diffusion-Xl. The application allows users to play games using pictures, and based on the response times for each question, therapists can gain insights into the patient's mental state.
+This is a mental health game application built with MERN stack and using Transformer model - BART for summarization and Generative Model - Stable Diffusion-XL for pictionary image generation. The application allows users to play games using pictures, and based on the response times for each question, therapists can gain insights into the patient's mental state.
 
 ## Features
 
@@ -21,12 +21,8 @@ This is a mental health game application built with MERN stack and using Machine
 - React
 - Express.js
 - MongoDB (optional, for storing user data and game results)
-- Machine Learning Model - BART, Stable Diffusion-XL.
-
-- BART is a transformer encoder-encoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. BART is pre-trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text.
-BART is particularly effective when fine-tuned for text generation (e.g. summarization, translation) but also works well for comprehension tasks (e.g. text classification, question answering). This particular checkpoint has been fine-tuned on CNN Daily Mail, a large collection of text-summary pairs.
-
-BART -> https://huggingface.co/facebook/bart-large-cnn
+- Generative AI - Stable Diffusion-XL
+- Transformer - BART
 
 
 ## Installation
