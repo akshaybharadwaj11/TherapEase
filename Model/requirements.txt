@@ -1,1 +1,8 @@
-pip install torch transformers tokenizers
+torch 
+transformers 
+tokenizers
+diffusers
+torchvision
+peft
+accelerate 
+safetensors
